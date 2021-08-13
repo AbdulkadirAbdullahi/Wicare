@@ -26149,34 +26149,34 @@ page-home #h {
 
 .alertb ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
-  color: #6a6666;
+  color: #00ff37;
 }
 
 .alertb :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #6a6666;
+  color: #00ff37;
   opacity: 1;
 }
 
 .alertb ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #6a6666;
+  color: #00ff37;
   opacity: 1;
 }
 
 .alertb :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #6a6666;
+  color: #00ff37;
 }
 
 .alertb ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #6a6666;
+  color: #00ff37;
 }
 
 .alertb ::placeholder {
   /* Most modern browsers support this now. */
-  color: #6a6666;
+  color: #00ff37;
 }
 
 .card-background-page ion-card {
