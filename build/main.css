@@ -25995,57 +25995,6 @@ ion-navbar.toolbar {
   min-height: 46px;
 }
 
-ion-content {
-  background: linear-gradient(316deg, #1de840, #00c983, #8fed32, #30bd93, #00c983, #98c739, #00c983);
-  background-size: 1800% 1800%;
-  -webkit-animation: rainbow 30s linear infinite;
-  animation: rainbow 30s linear infinite;
-}
-
-@-webkit-keyframes rainbow {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
-}
-
-@keyframes rainbow {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
-}
-
-ion-item {
-  border-radius: 6px !important;
-  padding-left: 10px !important;
-  margin-bottom: 15px !important;
-  margin-bottom: 10px;
-  color: #fff !important;
-  background-color: rgba(255, 255, 255, 0.2) !important;
-  font-size: 0.9em;
-}
-
-::-webkit-input-placeholder {
-  color: white !important;
-}
-
-.item-inner {
-  border-bottom: 0 !important;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important;
-}
-
 #inputlabel {
   color: black;
 }
@@ -26132,7 +26081,100 @@ page-home #h {
   color: black;
 }
 
+ion-navbar {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#h4 {
+  color: green !important;
+  font-weight: bold !important;
+  text-align: center;
+}
+
+#cmpd {
+  margin: none !important;
+  font-size: small !important;
+  text-align: center;
+}
+
+#container {
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+  border: 3px solid #c2b9b9 !important;
+  border-radius: 20px;
+}
+
+.from {
+  color: #1d2e21 !important;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.dear {
+  float: left;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.header {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tarea {
+  border: 2px solid #ebdfdf;
+  border-radius: 15px;
+}
+
+.to {
+  color: green;
+}
+
+.note {
+  font-size: 16px !important;
+  line-height: 23px;
+  text-align: justify;
+}
+
+.unilogo {
+  padding-right: 35px !important;
+  float: right !important;
+}
+
+#nav {
+  background-color: white !important;
+}
+
+#fr {
+  float: left;
+  width: 75%;
+}
+
+#uni {
+  margin-top: 20px;
+  float: right;
+  vertical-align: middle;
+  width: 25%;
+}
+
+.wecan {
+  color: green;
+  text-align: center;
+  font-weight: bold;
+}
+
 @media (min-width: 600px) {
+  #container {
+    width: 56%;
+    margin: auto;
+    padding: 15px;
+    border: 2px solid gainsboro;
+    border-radius: 6px;
+  }
   #searchBar {
     width: 70%;
     margin: auto;
@@ -26140,6 +26182,13 @@ page-home #h {
 }
 
 @media (max-width: 600px) {
+  #container {
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+    border: 2px solid gainsboro;
+    border-radius: 6px;
+  }
   #searchBar {
     width: 93%;
     margin: auto;
@@ -26235,44 +26284,3 @@ ion-modal.inset-modal {
 #p {
   color: #0e0d0d;
 }
-
-page-profiledetail .chat {
-  text-align: center;
-}
-
-page-profiledetail .social {
-  text-align: center;
-  color: #4f4d4d !important;
-  font-size: x-large;
-  border-radius: 5px;
-  border: 1px solid greenyellow;
-}
-
-page-profiledetail .label {
-  text-align: left;
-}
-
-page-profiledetail .name {
-  text-align: center;
-}
-
-page-profiledetail .cont {
-  border-radius: 5px;
-}
-
-page-profiledetail .title {
-  text-align: left;
-  color: #4f4d4d !important;
-}
-
-/*
-.scroll-bar-indicator
-{
-	display: none;
-    overflow-x: hidden;
-}
-scroll-content {
-    overflow-y: hidden;
-}
-.scroll-content {overflow-y: auto;}
-*/
